@@ -1,4 +1,4 @@
-# political-science-s4-bmstu
+# База для реферата по политологии
 
 ![Title](img/title.png)
 
