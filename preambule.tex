@@ -1,0 +1,35 @@
+\documentclass[14pt]{extarticle}
+
+\usepackage[a4paper, left=3cm, right=1.5cm, top=1.5cm, bottom=2cm]{geometry}
+\setlength{\parindent}{1.25cm}
+\linespread{1.5}
+
+% Make sections also use dotted lines; normal font instead of bold in toc
+\usepackage{tocloft}
+\renewcommand{\cftsecdotsep}{\cftdotsep}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+
+% Center "Contents" title
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+
+% Remove page number from table of contents
+\tocloftpagestyle{empty}
+
+% Remove numbering from sections
+\setcounter{secnumdepth}{0}
+
+% Localization
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+
+% Font configuration
+\usepackage{fontspec}
+\setmainfont{Roboto} % Liberation Serif} % ~ Times New Roman
+\setsansfont{Roboto} % Liberation Sans} % ~ Arial
+\setmonofont{Liberation Mono} % ~ Courier New
+
+% Other packages
+\usepackage{blindtext} % Lorem ipsum
